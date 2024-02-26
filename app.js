@@ -1,14 +1,7 @@
-'use strict';
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.navbar__menu');
 
-// Define a React component
-class HelloMessage extends React.Component {
-  render() {
-    return React.createElement('div', null, `Hello ${this.props.name}`);
-  }
-}
-
-// Render the React component to the DOM
-ReactDOM.render(
-  React.createElement(HelloMessage, {name: 'World'}, null),
-  document.getElementById('root')
-);
+menu.addEventListener('click', function() {
+  menu.classList.toggle('is-active');
+  menuLinks.classList.toggle('active');
+});
