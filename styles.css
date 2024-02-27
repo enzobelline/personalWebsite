@@ -248,7 +248,7 @@
 
 .main__content p {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 700;
 }
 
@@ -362,7 +362,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 40vh;
 }
 
 .services h1 {
@@ -401,7 +401,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/images/pic3.jpg');
+    url('/images/llama2.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -417,12 +417,12 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.9) 100%
     ),
-    url('/images/pic4.jpg');
+    url('/images/catsvdogs.jpg');
 }
 
 .services__card h2 {
   position: absolute;
-  top: 350px;
+  top: 320px;
   left: 30px;
 }
 
@@ -563,7 +563,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 180px;
 }
 
 .social__logo {
